@@ -91,7 +91,7 @@ export const getRecentAppointmentList = async () => {
     //   documents: appointments.documents,
     // };
 
-    return parseStringify(data);
+    return data;
   } catch (error) {
     console.error(
       "An error occurred while retrieving the recent appointments:",
